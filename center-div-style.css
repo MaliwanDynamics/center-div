@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-content {
+
+    margin: 0 auto;
+
+    max-width: 900px;
+    height: 100%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background-color: lightgray;
+}
+
+.center-me {
+    
+    margin: 0 auto;
+
+    background-color: lightgreen;
+}
+
+.not-centered {
+    background-color: lightcoral;
+}
+
+/* Just to make the div it visible */
+.size-adjusted {
+    max-width: 15rem;
+    height: 13rem;
+}
